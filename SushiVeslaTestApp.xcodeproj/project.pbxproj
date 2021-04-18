@@ -12,6 +12,10 @@
 		784242F62629E37D00D76575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784242F52629E37D00D76575 /* Assets.xcassets */; };
 		784242F92629E37D00D76575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784242F72629E37D00D76575 /* LaunchScreen.storyboard */; };
 		784243062629E69300D76575 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784243052629E69300D76575 /* SignInViewController.swift */; };
+		785667B9262AE21100F0F7A3 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667B8262AE21100F0F7A3 /* SignInPresenter.swift */; };
+		785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */; };
+		785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */; };
+		78CCE96A262B090A00AC42FA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CCE969262B090A00AC42FA /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		784242F82629E37D00D76575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		784242FA2629E37D00D76575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		784243052629E69300D76575 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		785667B8262AE21100F0F7A3 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenterProtocol.swift; sourceTree = "<group>"; };
+		785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewProtocol.swift; sourceTree = "<group>"; };
+		78CCE969262B090A00AC42FA /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,32 @@
 			children = (
 				784242EC2629E37C00D76575 /* AppDelegate.swift */,
 				784242EE2629E37C00D76575 /* SceneDelegate.swift */,
-				784243052629E69300D76575 /* SignInViewController.swift */,
+				784F880B262B3A6D00BE0778 /* SignInScreen */,
+				78CCE96C262B0AB800AC42FA /* Model */,
 				784242F52629E37D00D76575 /* Assets.xcassets */,
 				784242F72629E37D00D76575 /* LaunchScreen.storyboard */,
 				784242FA2629E37D00D76575 /* Info.plist */,
 			);
 			path = SushiVeslaTestApp;
+			sourceTree = "<group>";
+		};
+		784F880B262B3A6D00BE0778 /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				785667B8262AE21100F0F7A3 /* SignInPresenter.swift */,
+				785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */,
+				784243052629E69300D76575 /* SignInViewController.swift */,
+				785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */,
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
+		78CCE96C262B0AB800AC42FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78CCE969262B090A00AC42FA /* WeatherModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				784242ED2629E37C00D76575 /* AppDelegate.swift in Sources */,
+				785667B9262AE21100F0F7A3 /* SignInPresenter.swift in Sources */,
 				784242EF2629E37C00D76575 /* SceneDelegate.swift in Sources */,
+				78CCE96A262B090A00AC42FA /* WeatherModel.swift in Sources */,
+				785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */,
+				785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */,
 				784243062629E69300D76575 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
