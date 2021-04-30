@@ -8,5 +8,6 @@
 import Foundation
 
 protocol SignInViewProtocol: class {
-    func setWeatherView(weatherModel: WeatherModel)
+    func setWeatherView(temperature: Int, icon: Data?)
+    func setTimeAndDateView(current: Date)
 }

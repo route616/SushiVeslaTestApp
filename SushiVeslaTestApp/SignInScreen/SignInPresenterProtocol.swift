@@ -9,4 +9,5 @@ import Foundation
 
 protocol SignInPresenterProtocol: class {
     init(view: SignInViewProtocol, weatherModel: WeatherModel)
+    func presentWeather()
 }

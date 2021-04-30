@@ -15,7 +15,19 @@
 		785667B9262AE21100F0F7A3 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667B8262AE21100F0F7A3 /* SignInPresenter.swift */; };
 		785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */; };
 		785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */; };
-		78CCE96A262B090A00AC42FA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CCE969262B090A00AC42FA /* WeatherModel.swift */; };
+		787616FB2631AD78001D5B59 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787616FA2631AD78001D5B59 /* WeatherModel.swift */; };
+		78F18BD226386DDB00D254D2 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */; };
+		78F18BD5263880D000D254D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BD4263880D000D254D2 /* MainViewController.swift */; };
+		78F18BD82639719300D254D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BD72639719300D254D2 /* HomeViewController.swift */; };
+		78F18BDA263971BE00D254D2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BD9263971BE00D254D2 /* ProfileViewController.swift */; };
+		78F18BDC263971C800D254D2 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BDB263971C800D254D2 /* AccountsViewController.swift */; };
+		78F18BDE263971D900D254D2 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BDD263971D900D254D2 /* TransactionsViewController.swift */; };
+		78F18BE0263971E500D254D2 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BDF263971E500D254D2 /* StatsViewController.swift */; };
+		78F18BE2263971F000D254D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE1263971F000D254D2 /* SettingsViewController.swift */; };
+		78F18BE4263971FB00D254D2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE3263971FB00D254D2 /* HelpViewController.swift */; };
+		78F18BE62639B66100D254D2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */; };
+		78F18BEA263A05A700D254D2 /* Dictionary + [index].swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */; };
+		78F18BEE263B4A9300D254D2 /* MenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BED263B4A9300D254D2 /* MenuDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +41,19 @@
 		785667B8262AE21100F0F7A3 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenterProtocol.swift; sourceTree = "<group>"; };
 		785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewProtocol.swift; sourceTree = "<group>"; };
-		78CCE969262B090A00AC42FA /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		787616FA2631AD78001D5B59 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		78F18BD4263880D000D254D2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		78F18BD72639719300D254D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		78F18BD9263971BE00D254D2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		78F18BDB263971C800D254D2 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		78F18BDD263971D900D254D2 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		78F18BDF263971E500D254D2 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		78F18BE1263971F000D254D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		78F18BE3263971FB00D254D2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + [index].swift"; sourceTree = "<group>"; };
+		78F18BED263B4A9300D254D2 /* MenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +88,11 @@
 			children = (
 				784242EC2629E37C00D76575 /* AppDelegate.swift */,
 				784242EE2629E37C00D76575 /* SceneDelegate.swift */,
+				78F18BD3263880AA00D254D2 /* Fonts */,
+				787616FA2631AD78001D5B59 /* WeatherModel.swift */,
+				78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */,
+				78F18BD6263880E100D254D2 /* MainScreen */,
 				784F880B262B3A6D00BE0778 /* SignInScreen */,
-				78CCE96C262B0AB800AC42FA /* Model */,
 				784242F52629E37D00D76575 /* Assets.xcassets */,
 				784242F72629E37D00D76575 /* LaunchScreen.storyboard */,
 				784242FA2629E37D00D76575 /* Info.plist */,
@@ -84,12 +111,29 @@
 			path = SignInScreen;
 			sourceTree = "<group>";
 		};
-		78CCE96C262B0AB800AC42FA /* Model */ = {
+		78F18BD3263880AA00D254D2 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				78CCE969262B090A00AC42FA /* WeatherModel.swift */,
+				78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */,
 			);
-			path = Model;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		78F18BD6263880E100D254D2 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				78F18BD4263880D000D254D2 /* MainViewController.swift */,
+				78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */,
+				78F18BED263B4A9300D254D2 /* MenuDelegate.swift */,
+				78F18BD72639719300D254D2 /* HomeViewController.swift */,
+				78F18BD9263971BE00D254D2 /* ProfileViewController.swift */,
+				78F18BDB263971C800D254D2 /* AccountsViewController.swift */,
+				78F18BDD263971D900D254D2 /* TransactionsViewController.swift */,
+				78F18BDF263971E500D254D2 /* StatsViewController.swift */,
+				78F18BE1263971F000D254D2 /* SettingsViewController.swift */,
+				78F18BE3263971FB00D254D2 /* HelpViewController.swift */,
+			);
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +195,7 @@
 			files = (
 				784242F92629E37D00D76575 /* LaunchScreen.storyboard in Resources */,
 				784242F62629E37D00D76575 /* Assets.xcassets in Resources */,
+				78F18BD226386DDB00D254D2 /* Ubuntu-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,11 +208,22 @@
 			files = (
 				784242ED2629E37C00D76575 /* AppDelegate.swift in Sources */,
 				785667B9262AE21100F0F7A3 /* SignInPresenter.swift in Sources */,
+				78F18BDE263971D900D254D2 /* TransactionsViewController.swift in Sources */,
+				78F18BDA263971BE00D254D2 /* ProfileViewController.swift in Sources */,
+				78F18BE4263971FB00D254D2 /* HelpViewController.swift in Sources */,
 				784242EF2629E37C00D76575 /* SceneDelegate.swift in Sources */,
-				78CCE96A262B090A00AC42FA /* WeatherModel.swift in Sources */,
+				78F18BEA263A05A700D254D2 /* Dictionary + [index].swift in Sources */,
+				78F18BDC263971C800D254D2 /* AccountsViewController.swift in Sources */,
+				787616FB2631AD78001D5B59 /* WeatherModel.swift in Sources */,
 				785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */,
+				78F18BE0263971E500D254D2 /* StatsViewController.swift in Sources */,
+				78F18BEE263B4A9300D254D2 /* MenuDelegate.swift in Sources */,
+				78F18BE62639B66100D254D2 /* MenuTableViewCell.swift in Sources */,
+				78F18BE2263971F000D254D2 /* SettingsViewController.swift in Sources */,
 				785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */,
+				78F18BD82639719300D254D2 /* HomeViewController.swift in Sources */,
 				784243062629E69300D76575 /* SignInViewController.swift in Sources */,
+				78F18BD5263880D000D254D2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
