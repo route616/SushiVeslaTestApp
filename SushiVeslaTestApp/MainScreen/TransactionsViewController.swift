@@ -7,18 +7,15 @@
 
 import UIKit
 
-class TransactionsViewController: UIViewController {
+class TransactionsViewController: UIViewController, CustomNavigationControllerProtocol {
+    var mainView: UIView? { return view }    
+    var viewController: UIViewController? { return self }
+    
+    var navigationDelegate: CustomNavigationControllerDelegate?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemPink
         title = "Transactions"
-    }
-}
-
-extension TransactionsViewController: Identifiable {
-    typealias ID = Int
-
-    var id: Int {
-        return 3
     }
 }

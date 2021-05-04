@@ -9,6 +9,8 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    static let version = "Version 2.0.1"
+
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
@@ -26,9 +28,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             name: "Default Configuration", sessionRole: connectingSceneSession.role
         )
     }
-
-    func application(
-        _ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>
-    ) {}
 }
 

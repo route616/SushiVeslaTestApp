@@ -7,18 +7,15 @@
 
 import UIKit
 
-class HelpViewController: UIViewController {
+class HelpViewController: UIViewController, CustomNavigationControllerProtocol {
+    var mainView: UIView? { return view }    
+    var viewController: UIViewController? { return self }
+
+    var navigationDelegate: CustomNavigationControllerDelegate?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGreen
         title = "Help"
-    }
-}
-
-extension HelpViewController: Identifiable {
-    typealias ID = Int
-
-    var id: Int {
-        return 6
     }
 }

@@ -7,18 +7,15 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UIViewController, CustomNavigationControllerProtocol {
+    var mainView: UIView? { return view }    
+    var viewController: UIViewController? { return self }
+
+    var navigationDelegate: CustomNavigationControllerDelegate?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray
         title = "Settings"
-    }
-}
-
-extension SettingsViewController: Identifiable {
-    typealias ID = Int
-
-    var id: Int {
-        return 5
     }
 }
