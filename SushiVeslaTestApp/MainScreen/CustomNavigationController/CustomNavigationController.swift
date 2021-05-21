@@ -10,6 +10,7 @@ import UIKit
 class CustomNavigationController: UIViewController {
     private var rootViewController: CustomNavigationControllerProtocol! {
         didSet {
+            placeRootViewController()
             rootViewController.navigationDelegate = self
         }
     }
@@ -75,7 +76,6 @@ class CustomNavigationController: UIViewController {
         childVCView.frame = childControllerView.frame
         childVC.didMove(toParent: self)
         childControllerView.addSubview(childVCView)
-        currentChildViewController = childViewController
     }
 }
 
