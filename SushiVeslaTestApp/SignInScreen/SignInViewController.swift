@@ -83,7 +83,7 @@ class SignInViewController: UIViewController {
 
         currentWeatherIconImageView = UIImageView(image: UIImage(named: "Weather Icon"))
         currentWeatherIconImageView.contentMode = .scaleAspectFit
-//        currentWeatherIconImageView.clipsToBounds = true
+        currentWeatherIconImageView.clipsToBounds = true
 
         timeAndWeatherStackView = UIStackView(
             arrangedSubviews: [currentTimeLabel, currentWeatherIconImageView, currentWeatherLabel]

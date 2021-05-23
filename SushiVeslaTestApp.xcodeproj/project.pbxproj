@@ -17,8 +17,8 @@
 		785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */; };
 		787616FB2631AD78001D5B59 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787616FA2631AD78001D5B59 /* WeatherModel.swift */; };
 		7878C2CC263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878C2CB263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift */; };
-		787E4C78263D646100F6F83C /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E4C77263D646100F6F83C /* CustomNavigationController.swift */; };
-		787E4C7B263D6ED600F6F83C /* CustomNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E4C7A263D6ED600F6F83C /* CustomNavigationControllerDelegate.swift */; };
+		787E4C78263D646100F6F83C /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E4C77263D646100F6F83C /* PresentationController.swift */; };
+		787E4C7B263D6ED600F6F83C /* PresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E4C7A263D6ED600F6F83C /* PresentationControllerDelegate.swift */; };
 		78F18BD226386DDB00D254D2 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */; };
 		78F18BD5263880D000D254D2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BD4263880D000D254D2 /* MenuViewController.swift */; };
 		78F18BD82639719300D254D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BD72639719300D254D2 /* HomeViewController.swift */; };
@@ -30,7 +30,7 @@
 		78F18BE4263971FB00D254D2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE3263971FB00D254D2 /* HelpViewController.swift */; };
 		78F18BE62639B66100D254D2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */; };
 		78F18BEA263A05A700D254D2 /* Dictionary + [index].swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */; };
-		78F18BEE263B4A9300D254D2 /* CustomNavigationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BED263B4A9300D254D2 /* CustomNavigationControllerProtocol.swift */; };
+		78F18BEE263B4A9300D254D2 /* PresentationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BED263B4A9300D254D2 /* PresentationControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +46,8 @@
 		785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewProtocol.swift; sourceTree = "<group>"; };
 		787616FA2631AD78001D5B59 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		7878C2CB263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + CustomNavigationControllerProtocol.swift"; sourceTree = "<group>"; };
-		787E4C77263D646100F6F83C /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
-		787E4C7A263D6ED600F6F83C /* CustomNavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		787E4C77263D646100F6F83C /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		787E4C7A263D6ED600F6F83C /* PresentationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationControllerDelegate.swift; sourceTree = "<group>"; };
 		78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		78F18BD4263880D000D254D2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		78F18BD72639719300D254D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		78F18BE3263971FB00D254D2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + [index].swift"; sourceTree = "<group>"; };
-		78F18BED263B4A9300D254D2 /* CustomNavigationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationControllerProtocol.swift; sourceTree = "<group>"; };
+		78F18BED263B4A9300D254D2 /* PresentationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,14 +127,14 @@
 			path = MenuViewController;
 			sourceTree = "<group>";
 		};
-		787E4C83263DB7DB00F6F83C /* CustomNavigationController */ = {
+		787E4C83263DB7DB00F6F83C /* PresentationController */ = {
 			isa = PBXGroup;
 			children = (
-				787E4C7A263D6ED600F6F83C /* CustomNavigationControllerDelegate.swift */,
-				78F18BED263B4A9300D254D2 /* CustomNavigationControllerProtocol.swift */,
-				787E4C77263D646100F6F83C /* CustomNavigationController.swift */,
+				787E4C7A263D6ED600F6F83C /* PresentationControllerDelegate.swift */,
+				78F18BED263B4A9300D254D2 /* PresentationControllerProtocol.swift */,
+				787E4C77263D646100F6F83C /* PresentationController.swift */,
 			);
-			path = CustomNavigationController;
+			path = PresentationController;
 			sourceTree = "<group>";
 		};
 		78F18BD3263880AA00D254D2 /* Fonts */ = {
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				7878C2CE263DBF4A0059DD21 /* MenuViewController */,
-				787E4C83263DB7DB00F6F83C /* CustomNavigationController */,
+				787E4C83263DB7DB00F6F83C /* PresentationController */,
 				78F18BD72639719300D254D2 /* HomeViewController.swift */,
 				78F18BD9263971BE00D254D2 /* ProfileViewController.swift */,
 				78F18BDB263971C800D254D2 /* AccountsViewController.swift */,
@@ -231,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787E4C7B263D6ED600F6F83C /* CustomNavigationControllerDelegate.swift in Sources */,
+				787E4C7B263D6ED600F6F83C /* PresentationControllerDelegate.swift in Sources */,
 				784242ED2629E37C00D76575 /* AppDelegate.swift in Sources */,
 				785667B9262AE21100F0F7A3 /* SignInPresenter.swift in Sources */,
 				78F18BDE263971D900D254D2 /* TransactionsViewController.swift in Sources */,
@@ -243,14 +243,14 @@
 				787616FB2631AD78001D5B59 /* WeatherModel.swift in Sources */,
 				785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */,
 				78F18BE0263971E500D254D2 /* StatsViewController.swift in Sources */,
-				78F18BEE263B4A9300D254D2 /* CustomNavigationControllerProtocol.swift in Sources */,
+				78F18BEE263B4A9300D254D2 /* PresentationControllerProtocol.swift in Sources */,
 				78F18BE62639B66100D254D2 /* MenuTableViewCell.swift in Sources */,
 				78F18BE2263971F000D254D2 /* SettingsViewController.swift in Sources */,
 				7878C2CC263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift in Sources */,
 				785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */,
 				78F18BD82639719300D254D2 /* HomeViewController.swift in Sources */,
 				784243062629E69300D76575 /* SignInViewController.swift in Sources */,
-				787E4C78263D646100F6F83C /* CustomNavigationController.swift in Sources */,
+				787E4C78263D646100F6F83C /* PresentationController.swift in Sources */,
 				78F18BD5263880D000D254D2 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

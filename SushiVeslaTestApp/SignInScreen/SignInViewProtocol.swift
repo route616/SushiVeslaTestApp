@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol SignInViewProtocol: class {
+protocol SignInViewProtocol: AnyObject {
     func setWeatherView(temperature: Int, icon: Data?)
     func setTimeAndDateView(current: Date)
 }

@@ -7,15 +7,21 @@
 
 import UIKit
 
-class AccountsViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? { return view }    
-    var viewController: UIViewController? { return self }
-
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class AccountsViewController: UIViewController {
+    private var presentationDelegate: PresentationControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBlue
         title = "Accounts"
+    }
+}
+
+extension AccountsViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+    
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

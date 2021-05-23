@@ -7,15 +7,21 @@
 
 import UIKit
 
-class HelpViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? { return view }    
-    var viewController: UIViewController? { return self }
-
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class HelpViewController: UIViewController {
+    var presentationDelegate: PresentationControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGreen
         title = "Help"
+    }
+}
+
+extension HelpViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+    
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

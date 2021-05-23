@@ -7,14 +7,11 @@
 
 import UIKit
 
-class MenuViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? { return view }
-    var viewController: UIViewController? { return self }
-    
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class MenuViewController: UIViewController {
+    var presentationDelegate: PresentationControllerDelegate?
     
     // Menu Items
-    private let viewControllers: [(String, CustomNavigationControllerProtocol)] = [
+    private let viewControllers: [(String, PresentationControllerProtocol)] = [
         ("Home", HomeViewController()),
         ("Profile", ProfileViewController()),
         ("Accounts", AccountsViewController()),
@@ -206,14 +203,14 @@ class MenuViewController: UIViewController, CustomNavigationControllerProtocol {
     }
 
     @objc private func pushCloseButton() {
-        navigationDelegate?.backUpChildView()
+        presentationDelegate?.backUpChildView()
     }
 }
 
 // MARK: - UITableViewDelegate
 extension MenuViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigationDelegate?.present(
+        presentationDelegate?.present(
             viewController: viewControllers[indexPath.row].1
         )
     }
@@ -235,5 +232,14 @@ extension MenuViewController: UITableViewDataSource {
         }
         cell.screenNameLabel.text = viewControllers[indexPath.row].0
         return cell
+    }
+}
+
+extension MenuViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+    
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

@@ -7,11 +7,8 @@
 
 import UIKit
 
-class StatsViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? { return view }    
-    var viewController: UIViewController? { return self }
-
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class StatsViewController: UIViewController {
+    var presentationDelegate: PresentationControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +17,14 @@ class StatsViewController: UIViewController, CustomNavigationControllerProtocol 
 
     @objc private func backToMainMenu(_ sender: UIButton) {
         
+    }
+}
+
+extension StatsViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+    
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

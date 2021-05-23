@@ -7,15 +7,21 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? { return view }    
-    var viewController: UIViewController? { return self }
-
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class SettingsViewController: UIViewController {
+    var presentationDelegate: PresentationControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray
         title = "Settings"
+    }
+}
+
+extension SettingsViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+    
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

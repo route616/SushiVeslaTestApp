@@ -7,15 +7,8 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? {
-        return view
-    }
-    var viewController: UIViewController? {
-        return self
-    }
-
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class HomeViewController: UIViewController {
+    var presentationDelegate: PresentationControllerDelegate?
     
     private var menuButton: UIButton!
 
@@ -41,6 +34,15 @@ class HomeViewController: UIViewController, CustomNavigationControllerProtocol {
     }
 
     @objc private func pushMenuButton() {
-        navigationDelegate?.moveSideChildView()
+        presentationDelegate?.moveSideChildView()
+    }
+}
+
+extension HomeViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

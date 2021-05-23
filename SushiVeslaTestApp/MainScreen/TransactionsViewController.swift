@@ -7,15 +7,21 @@
 
 import UIKit
 
-class TransactionsViewController: UIViewController, CustomNavigationControllerProtocol {
-    var mainView: UIView? { return view }    
-    var viewController: UIViewController? { return self }
-    
-    var navigationDelegate: CustomNavigationControllerDelegate?
+class TransactionsViewController: UIViewController {
+    var presentationDelegate: PresentationControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemPink
         title = "Transactions"
+    }
+}
+
+extension TransactionsViewController: PresentationControllerProtocol {
+    var viewController: UIViewController? { self }
+    var mainView: UIView? { view }
+    
+    func setPresentationDelegate(presentationDelegate: PresentationControllerDelegate) {
+        self.presentationDelegate = presentationDelegate
     }
 }

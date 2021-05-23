@@ -7,7 +7,9 @@
 
 import Foundation
 
-protocol SignInPresenterProtocol: class {
+protocol SignInPresenterProtocol: AnyObject {
     init(view: SignInViewProtocol, weatherModel: WeatherModel)
+
     func presentWeather()
+    func presentTimeAndDate()
 }
