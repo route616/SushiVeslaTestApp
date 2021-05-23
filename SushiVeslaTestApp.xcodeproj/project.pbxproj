@@ -16,7 +16,6 @@
 		785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */; };
 		785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */; };
 		787616FB2631AD78001D5B59 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787616FA2631AD78001D5B59 /* WeatherModel.swift */; };
-		7878C2CC263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878C2CB263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift */; };
 		787E4C78263D646100F6F83C /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E4C77263D646100F6F83C /* PresentationController.swift */; };
 		787E4C7B263D6ED600F6F83C /* PresentationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E4C7A263D6ED600F6F83C /* PresentationControllerDelegate.swift */; };
 		78F18BD226386DDB00D254D2 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */; };
@@ -29,7 +28,6 @@
 		78F18BE2263971F000D254D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE1263971F000D254D2 /* SettingsViewController.swift */; };
 		78F18BE4263971FB00D254D2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE3263971FB00D254D2 /* HelpViewController.swift */; };
 		78F18BE62639B66100D254D2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */; };
-		78F18BEA263A05A700D254D2 /* Dictionary + [index].swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */; };
 		78F18BEE263B4A9300D254D2 /* PresentationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F18BED263B4A9300D254D2 /* PresentationControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +43,6 @@
 		785667BD262AEDE300F0F7A3 /* SignInPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenterProtocol.swift; sourceTree = "<group>"; };
 		785667C0262AEE5C00F0F7A3 /* SignInViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewProtocol.swift; sourceTree = "<group>"; };
 		787616FA2631AD78001D5B59 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
-		7878C2CB263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + CustomNavigationControllerProtocol.swift"; sourceTree = "<group>"; };
 		787E4C77263D646100F6F83C /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 		787E4C7A263D6ED600F6F83C /* PresentationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationControllerDelegate.swift; sourceTree = "<group>"; };
 		78F18BD126386DDB00D254D2 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 		78F18BE1263971F000D254D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		78F18BE3263971FB00D254D2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		78F18BE52639B66100D254D2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + [index].swift"; sourceTree = "<group>"; };
 		78F18BED263B4A9300D254D2 /* PresentationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +92,6 @@
 				784242EE2629E37C00D76575 /* SceneDelegate.swift */,
 				78F18BD3263880AA00D254D2 /* Fonts */,
 				787616FA2631AD78001D5B59 /* WeatherModel.swift */,
-				78F18BE9263A05A700D254D2 /* Dictionary + [index].swift */,
-				7878C2CB263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift */,
 				78F18BD6263880E100D254D2 /* MainScreen */,
 				784F880B262B3A6D00BE0778 /* SignInScreen */,
 				784242F52629E37D00D76575 /* Assets.xcassets */,
@@ -238,7 +232,6 @@
 				78F18BDA263971BE00D254D2 /* ProfileViewController.swift in Sources */,
 				78F18BE4263971FB00D254D2 /* HelpViewController.swift in Sources */,
 				784242EF2629E37C00D76575 /* SceneDelegate.swift in Sources */,
-				78F18BEA263A05A700D254D2 /* Dictionary + [index].swift in Sources */,
 				78F18BDC263971C800D254D2 /* AccountsViewController.swift in Sources */,
 				787616FB2631AD78001D5B59 /* WeatherModel.swift in Sources */,
 				785667BE262AEDE300F0F7A3 /* SignInPresenterProtocol.swift in Sources */,
@@ -246,7 +239,6 @@
 				78F18BEE263B4A9300D254D2 /* PresentationControllerProtocol.swift in Sources */,
 				78F18BE62639B66100D254D2 /* MenuTableViewCell.swift in Sources */,
 				78F18BE2263971F000D254D2 /* SettingsViewController.swift in Sources */,
-				7878C2CC263DBE300059DD21 /* UIViewController + CustomNavigationControllerProtocol.swift in Sources */,
 				785667C1262AEE5C00F0F7A3 /* SignInViewProtocol.swift in Sources */,
 				78F18BD82639719300D254D2 /* HomeViewController.swift in Sources */,
 				784243062629E69300D76575 /* SignInViewController.swift in Sources */,
